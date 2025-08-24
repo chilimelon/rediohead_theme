@@ -1,0 +1,31 @@
+{
+  "name": "rediohead-theme",
+  "displayName": "rediohead theme",
+  "publisher": "ChiliMelon",
+  "description": "A spicy red dark theme inspired by chili peppers, Silent Red, and Vesper. Optimized for Go, Python, and TypeScript.",
+  "version": "0.0.1",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chilimelon/rediohead_theme"
+  },
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "rediohead theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/rediohead-color-theme.json"
+      }
+    ]
+  },
+  "icon": "icon.png",
+  "galleryBanner": { "color": "#1c1414", "theme": "dark" }
+}
+
+
